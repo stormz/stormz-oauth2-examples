@@ -1,0 +1,19 @@
+{
+  "credentials": {
+    "client": {
+      "id": "<your_application_id>",
+      "secret": "<yout_application_secret>"
+    },
+    "auth": {
+      "tokenHost": "<http://your_oauth_server.url>"
+    }
+  },
+  "tokenConfigPassword": {
+    "username": "<your_user_login>",
+    "password": "<your_user_password>"
+  },
+  "authorizationConfig": {
+    "redirect_uri": "<your_application_redirect_url_which_can_be_fake>",
+    "state": "133742"
+  }
+}

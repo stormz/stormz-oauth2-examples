@@ -1,0 +1,15 @@
+{
+  "name": "stormz-oauth2-examples",
+  "description": "Oauth2 nodeJS examples with Stormz",
+  "version": "1.0.0",
+  "homepage": "https://developer.stormz.me",
+  "license": "MIT",
+  "scripts": {
+    "password_credentials": "node password_credentials_flow.js",
+    "authorization_code": "node authorization_code_flow.js"
+  },
+  "dependencies": {
+    "simple-oauth2": "^2.2.1",
+    "stormz": "^0.0.2"
+  }
+}
