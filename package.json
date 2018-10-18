@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "password_credentials": "node password_credentials_flow.js",
-    "authorization_code": "node authorization_code_flow.js"
+    "authorization_code": "node authorization_code_flow.js",
+    "implicit_grant": "node implicit_grant_flow.js"
   },
   "dependencies": {
     "simple-oauth2": "^2.2.1",
